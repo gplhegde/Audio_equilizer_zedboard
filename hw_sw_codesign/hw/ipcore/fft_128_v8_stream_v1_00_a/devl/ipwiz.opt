@@ -1,0 +1,10 @@
+-batch 
+-create fft_128_v8_stream 
+-ver 1.00.a 
+-dir C:\Users\waterpump\Documents\ESD_Project\Final_demo\ 
+-lang vhdl 
+-bus axi4stream ms 
+-xps 
+-totalin 8
+-totalout 8
+-driver 

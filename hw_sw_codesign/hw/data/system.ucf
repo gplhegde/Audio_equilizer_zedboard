@@ -1,0 +1,27 @@
+#
+# pin constraints
+#
+#
+# additional constraints
+#
+# Audio Related constraints
+NET i2s_ctrl_0_BCLK_pin  LOC = AA6 | IOSTANDARD = LVCMOS33;
+NET i2s_ctrl_0_LRCLK_pin LOC = Y6  | IOSTANDARD = LVCMOS33;
+NET i2s_ctrl_0_SDATA_I_pin LOC = AA7 | IOSTANDARD = LVCMOS33;
+NET i2s_ctrl_0_SDATA_O_pin LOC = Y8  | IOSTANDARD = LVCMOS33;
+
+NET processing_system7_0_FCLK_CLK1_pin LOC = AB2 | IOSTANDARD = LVCMOS33; #MCLK
+
+NET processing_system7_0_I2C0_SCL LOC = AB4 | IOSTANDARD = LVCMOS33; 
+NET processing_system7_0_I2C0_SDA LOC = AB5 | IOSTANDARD = LVCMOS33;
+
+NET axi_gpio_0_GPIO_IO_pin<0> LOC = AB1 | IOSTANDARD = LVCMOS33;
+NET axi_gpio_0_GPIO_IO_pin<1> LOC = Y5 | IOSTANDARD = LVCMOS33;
+
+# OLED pin mapping
+NET oled_bypass_ps2pl_0_OLED_DC_pin       LOC = U10  | IOSTANDARD=LVCMOS33;  # "OLED-DC"
+NET oled_bypass_ps2pl_0_OLED_RES_pin      LOC = U9   | IOSTANDARD=LVCMOS33;  # "OLED-RES"
+NET oled_bypass_ps2pl_0_OLED_SCLK_pin     LOC = AB12 | IOSTANDARD=LVCMOS33;  # "OLED-SCLK"
+NET oled_bypass_ps2pl_0_OLED_SDIN_pin     LOC = AA12 | IOSTANDARD=LVCMOS33;  # "OLED-SDIN"
+NET oled_bypass_ps2pl_0_OLED_VBAT_pin     LOC = U11  | IOSTANDARD=LVCMOS33;  # "OLED-VBAT"
+NET oled_bypass_ps2pl_0_OLED_VDD_pin      LOC = U12  | IOSTANDARD=LVCMOS33;  # "OLED-VDD"

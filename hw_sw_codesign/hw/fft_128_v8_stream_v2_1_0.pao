@@ -1,0 +1,8 @@
+##############################################################################
+## Filename:          C:\Users\waterpump\Documents\ESD_Project\Final_demo\pcores/fft_128_v8_stream_v1_00_a/data/fft_128_v8_stream_v2_1_0.pao
+## Description:       Peripheral Analysis Order
+## Date:              Sat Nov 01 22:18:54 2014 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+lib fft_128_v8_stream_v1_00_a fft_128_v8_stream vhdl
+lib fft_128_v8_stream_v1_00_a fft_stream_128 vhdl
